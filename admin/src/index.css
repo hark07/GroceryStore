@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Outfit", serif;
+}
+
+.active {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+select,
+input,
+textarea {
+  border: 1px solid #c2c2c2;
+  outline: #ffffff;
+  border-radius: 4px;
+}
+
+/* In your CSS file */
+.toast-success-green {
+  background-color: #28a745 !important; /* Green color */
+  color: white !important;
+  border-radius: 5px;
+}
